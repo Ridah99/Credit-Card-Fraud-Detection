@@ -5,14 +5,24 @@ An advanced fraud detection system evaluating 7+ ML models and 3 sampling techni
 
 ## 🔍 Key Insights
 - **Optimal Sampling**: Random Undersampling (RUS) prevented overfitting observed in SMOTE (Synthetic Minority Oversampling) / Random Oversampling (ROS)
-- **Critical Finding**: Fraud peaks **11 hours after initial transaction** (40 cases/hour) with all fraudulent transaction amounts being less than 5000
+- **Critical Finding**: Fraud peaks **11 hours after initial transaction** (40 cases/hour) and all fraudulent transaction amounts were less than 5000
 - **Optimal Threshold**: 0.85 probability balances recall (92%) and precision (96%)
 
-## 🏆 Best Performing Model (RUS)
+## 🏆 Best Performing Models (RUS)
 | Model               | Precision | Recall | F1-Score | AUC  | Speed        |
 |---------------------|-----------|--------|----------|------|-----------   |
 | Logistic Regression | 0.96      | 0.92   | 0.94     | 0.99 | ⚡ Fastest  |
 | Stacked Ensemble    | 0.99      | 0.90   | 0.94     | 0.98 | 🐢 Slowest  |
+
+## 💡 Recommendation
+1. **Choose Logistic Regression if**:
+- You prioritize recall (catching more fraud)
+- You need fast inference (real-time systems)
+- You value model interpretability
+2. **Choose Stacked Ensemble if**:
+- You prioritize precision (fewer false alarms)
+- You can tolerate slower prediction speed
+- You want slightly better robustness
 
 ## 🛠️ Technical Implementation
 ### Data Preparation

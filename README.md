@@ -22,13 +22,9 @@ An advanced fraud detection system evaluating 7+ ML models and 3 sampling techni
 
 ## 💡 Recommendation
 1. **Choose Logistic Regression if**:
-- You prioritize recall (catching more fraud)
-- You need fast real-time systems
-- You value model interpretability
+- You prioritize recall (catching more fraud), need fast real-time systems and value model interpretability
 2. **Choose Stacked Ensemble if**:
-- You prioritize precision (fewer false alarms)
-- You can tolerate slower prediction speed
-- You want slightly better robustness
+- You prioritize precision (fewer false alarms), can tolerate slower prediction speed and want slightly better robustness
 
 ## 🛠️ Technical Implementation
 ### Data Preparation

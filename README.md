@@ -13,9 +13,9 @@ An advanced fraud detection system evaluating 7+ ML models and 3 sampling techni
 ## 🔍Data Visualization Insights 
 | Insight | Visualization | Notes |
 |---------|--------------|------------------|
-| Extreme class imbalance (0.17% fraud) | ![Class Imbalance](assets.zip/normal_vs_fraud_countplot.png) | Justified sampling techniques |
-| Fraud peaks 11h after initial transaction | ![Temporal Pattern](assets,zip/fraud_over_time_histplot.png) | Recommend heightened monitoring during this window |
-| Fraud amounts consistently under 5000 | ![Amount Distribution](assets.zip/transactions_by_amount_violinplot.png) | Flag mid-size transactions for review |
+| Extreme class imbalance (0.17% fraud) | ![Class Imbalance](assets/normal_vs_fraud_countplot.png) | Justified sampling techniques |
+| Fraud peaks 11h after initial transaction | ![Temporal Pattern](assets/fraud_over_time_histplot.png) | Recommend heightened monitoring during this window |
+| Fraud amounts consistently under 5000 | ![Amount Distribution](assets/transactions_by_amount_violinplot.png) | Flag mid-size transactions for review |
 
 ## 🏆 Best Performing Models (RUS)
 | Model               | Precision | Recall | F1-Score | AUC  | Speed        |
